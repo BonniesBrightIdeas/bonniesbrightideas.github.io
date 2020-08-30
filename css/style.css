@@ -1,0 +1,93 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Lexend Peta', sans-serif;
+}
+h1{
+    font-size:36px;
+}
+h2{
+    font-size:30px
+}
+h3{
+    font-size:26px
+}
+h4{
+    font-size:20px
+}
+h5{
+    font-size:16px
+}
+a{
+    color:inherit
+}
+.vw { 
+    width: 1024px;
+    height: auto;
+    margin: auto;
+    padding: 16px;
+}
+.text-center  {
+    text-align: center;
+}
+nav {
+    height: 140px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+nav img {
+    float: left;
+}
+.link {
+    display: inline-block;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 18px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.cursor {
+    cursor: pointer;
+}
+#home {
+    margin-top: 146px;
+    height: 629px;
+}
+.homeText {
+    text-align: center;
+    padding-right: 450px;
+}
+.bg-color {
+    background: #F0F0F0;
+    border-radius: 10px;
+    height: 420px;
+}
+.image-border {
+    border-radius: 10px;
+}
+.toggleContainer {
+    display: none;
+    transition: all;
+    padding: 15px;
+}
+.plus_minus {
+    float: right;
+}
+ul{
+    list-style-type:none;
+    padding:0;
+    margin:0
+}
+li img {
+    border-radius: 10px;
+    float: left;
+    margin-right: 20px;
+    vertical-align: middle;
+}
