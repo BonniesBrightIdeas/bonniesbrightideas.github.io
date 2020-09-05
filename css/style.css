@@ -74,7 +74,30 @@ h1, .card-title {font-size: 48px; font-weight: normal;}
 .toggleContainer {
     padding: 1.25rem;
     display: block;
+    background: #F6F6F6;
 }
-.problem {
-    margin-bottom: 25px;
+.toggleFlex {
+    display: flex;
+}
+.problem, .solution {
+    margin-bottom: 20px;
+    padding: 16px
+}
+.toogle-link {
+    text-align: center;
+}
+/* footer */
+footer {
+    background: #F6F6F6;
+    padding: 10px;
+}
+.logo-bbi {
+    margin: 16px;
+}
+.contact {
+    display: flex;
+}
+.contact-text {
+    display: block;
+    width: 50%;
 }
