@@ -75,9 +75,6 @@ h1, .card-title {font-size: 48px; font-weight: normal;}
     padding: 1.25rem;
     display: block;
 }
-.toggle-link {
-    align-self: flex-end;
-}
 .problem {
     margin-bottom: 25px;
 }
