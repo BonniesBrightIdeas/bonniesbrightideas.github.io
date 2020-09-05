@@ -1,65 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend+Peta&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bonnie's Bright Ideas | Portfolio</title>
 </head>
 <body>
-    <nav>
-        <div class="vw">
-            <a href="#home"><div><img src="images/bbi-logo.png" class="logo" alt="Bonnie's Bright Ideas Logo" width="221px" height="52px"></div></a>
-            <a href="#about"><div class="link">About</div></a> 
-            <a href="#work"><div class="link">Work</div></a> 
-            <a href="#dailyui"><div class="link">Daily UI</div></a> 
-            <a href="#uxuiprocess"><div class="link">UX/UI Process</div></a> 
-    </nav>
-<!-- Navbar on small screens -->
-
-<!--Home-->
-    <section id="home">
-        <div class="vw homeText">
-            <h1>I'm a UX-UI Designer</h1>
-            <p>who understands human behavior</p>
-            <p>to make meaningful experiences.</p>
+<!-- Nav -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
+  <a class="navbar-brand" href="#home"><img src="images/Logo_Nav.svg"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Work</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#projects">Projects</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#dailyui">Daily UI</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#frontend">Frontend Dev</a>
         </div>
-        <div class="vw text-center">
-            <h3>Featured</h3>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#resume">Resume</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!--Hero-->
+<section id="home"> 
+  <div class="jumbotron">
+    <h1 class="text-break">Reseracher</h1>
+    <h1 class="text-break">Designer</h1>
+    <h1 class="text-break padbottom">Developer</h1>
+    <p class="subHead  padTop borTop">UX-UI Designer based in Southern California looking for new opportunities.</p>
+  </div>
+<!--Title-->
+  <div class="secTitle"> 
+    <h1>FEATURED PROJECT</h1>
+  </div>
+<!--Card-->
+  <div class="card mb-3">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="images/caseStudy/cs-nonprof.png" class="card-img" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <p class="card-text"><small class="text-muted">CASE STUDY | AUGUST 2020</small></p>
+          <h5 class="card-title">Redesigning a
+            Nonprofit Website</h5>
+          <p class="card-text">User Research of the www.elihome.org website to discover pain points and needs of both the user and the organization.</p>
+          <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-caret-right toggle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M6 12.796L11.481 8 6 3.204v9.592zm.659.753l5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+          </svg>
         </div>
+      </div>
+    </div>
+    <div class="toggleContainer">
+      <div class="toggleFlex">
+        <div class="problem">
+          <h5 class="card-title">Problem</h5>
+          <p class="card-text">User Research of the www.elihome.org website to discover pain points and needs of both the user and the organization.</p>
+        </div>
+        <div class="solution">
+          <h5 class="card-title">Solution</h5>
+          <p class="card-text">User Research of the www.elihome.org website to discover pain points and needs of both the user and the organization.</p>
+        </div>
+      </div>
+      <div class="toogle-link">
+      <a href="https://www.behance.net/gallery/101694455/Making-a-Nonprofit-Visible" class="card-link" target="_blank" >Go to complete case study</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!--drop down-->
 
-        <ul class="vw bg-color">
-            <li class="toggle"><img src="images/caseStudy/cs-nonprof.png" alt="Nonprofit UX/UI Case Study" width="441px" height="329px" class="img-border">
-            AUGUST 2020
-            <h2>Redesigning a <br> Nonprofit Website</h2>
-            User Research of the www.elihome.org website to discover pain points and needs of both the user and the organization.
-            <span class="plus_minus cursor">+</span>
-            <div class="toggleContainer">
-                <div>Problem:Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam esse, quisquam dolor accusamus quas dicta tempora nemo assumenda id unde saepe porro amet quis voluptatum voluptate velit. Eos, molestias nesciunt!</div>
-                <div>Solution:Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam esse, quisquam dolor accusamus quas dicta tempora nemo assumenda id unde saepe porro amet quis voluptatum voluptate velit. Eos, molestias nesciunt!</div>
-                <div>Go to complete case study</div>
-            </div>
-            </li>
-        </ul>
-    </section>
-<!--About-->
-    <section id="about">
-    </section>
-<!--Work-->
-    <section id="work">
-    </section>
-<!--DailyUI-->
-    <section id="dailyui">
-    </section>
-<!--UX/UI Process-->
-    <section id="uxuiprocess">
-    </section>
 <!--Footer-->
     <footer>
 
     </footer>
-<script src="js/index.js"></script>
 
+<!--script-->
+<script src="js/index.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>

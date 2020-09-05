@@ -1,93 +1,83 @@
-body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
+body, .card-text {font-family: 'Montserrat', sans-serif;  font-size: 20px; font-weight: 300; line-height: 24px;}
+h1, h2, h3, h4, h5 {font-family: 'Bebas Neue Pro', cursive;}
+h1, .card-title {font-size: 48px; font-weight: normal;}
+.secTitle {
+    text-align: center; 
+    text-transform: uppercase; 
 }
-h1, h2, h3, h4, h5 {
-    font-family: 'Lexend Peta', sans-serif;
+.sectionTitle  h1 {
+    margin-bottom: 2rem;
 }
-h1{
-    font-size:36px;
-}
-h2{
-    font-size:30px
-}
-h3{
-    font-size:26px
-}
-h4{
-    font-size:20px
-}
-h5{
-    font-size:16px
-}
-a{
-    color:inherit
-}
-.vw { 
-    width: 1024px;
-    height: auto;
-    margin: auto;
-    padding: 16px;
-}
-.text-center  {
-    text-align: center;
-}
-nav {
-    height: 140px;
-    background-color: white;
+/* nav */
+.customNav {
     position: fixed;
     width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 5;
+    background-size: cover;
+    z-index: 10;
+    background: #F6F6F6;
 }
-nav img {
-    float: left;
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
 }
-.link {
-    display: inline-block;
-    padding-bottom: 8px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 18px;
-    font-size: 20px;
-    margin-left: 50px;
+.nav-item {
+    margin: 0px 15px;
 }
-.cursor {
-    cursor: pointer;
+.navbar img {
+    padding-left: 16px;
 }
+/* hero */
 #home {
-    margin-top: 146px;
-    height: 629px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
 }
-.homeText {
-    text-align: center;
-    padding-right: 450px;
+.jumbotron {
+    background-image: url(../images/bg-img/mainBg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: calc(100vh - 25px);
+    display: block;
+    box-shadow: -1px -2px 2px rgba(214, 214, 214, .322), 1px 2px 2px rgba(119, 119, 119, 0.322);
 }
-.bg-color {
-    background: #F0F0F0;
-    border-radius: 10px;
-    height: 420px;
+.subHead {
+    font-size: 25px; 
+    margin-right: 50%;
+    min-width: 370px;
+    max-width: 1000px;
+} 
+.padbottom {
+    padding-bottom: 20px;
 }
-.image-border {
-    border-radius: 10px;
+.padTop {
+    padding-top: 20px;
 }
-.toggleContainer {
-    display: none;
-    transition: all;
-    padding: 15px;
+.borTop {
+    border-top: 1px solid #C4C4C4;
 }
-.plus_minus {
+/* card */
+.card {
+    margin: 0 auto;
+    box-shadow: -1px -2px 2px rgba(214, 214, 214, .322), 1px 2px 2px rgba(119, 119, 119, 0.322);
+}
+.col-md-8 {
+    display: flex;
+    align-items: center;
+    
+}
+.bi-caret-right {
     float: right;
+    color: #FBC103;
 }
-ul{
-    list-style-type:none;
-    padding:0;
-    margin:0
+/* toggle */
+.toggleContainer {
+    padding: 1.25rem;
+    display: block;
 }
-li img {
-    border-radius: 10px;
-    float: left;
-    margin-right: 20px;
-    vertical-align: middle;
+.toggle-link {
+    align-self: flex-end;
+}
+.problem {
+    margin-bottom: 25px;
 }
