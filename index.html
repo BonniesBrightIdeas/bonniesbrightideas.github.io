@@ -11,8 +11,8 @@
 </head>
 <body>
 <!-- Nav -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
-  <a class="navbar-brand" href="#home"><img src="images/Logo_Nav.svg"></a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light customNav fixed-top">
+  <a class="navbar-brand" href="index.html"><img src="images/Logo_Nav.svg"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Work</a>
@@ -39,7 +39,7 @@
   </div>
 </nav>
 <!--Hero-->
-<section id="home"> 
+<section id="home container"> 
   <div class="jumbotron">
     <h1 class="text-break">Reseracher</h1>
     <h1 class="text-break">Designer</h1>
@@ -51,8 +51,8 @@
     <h1>FEATURED PROJECT</h1>
   </div>
 <!--Card-->
-  <div class="card mb-3">
-    <div class="row no-gutters">
+  <div class="card">
+    <div class="row">
       <div class="col-md-4">
         <img src="images/caseStudy/cs-nonprof.png" class="card-img" alt="...">
       </div>
@@ -80,7 +80,9 @@
         </div>
       </div>
       <div class="toogle-link">
-      <a href="https://www.behance.net/gallery/101694455/Making-a-Nonprofit-Visible" class="card-link" target="_blank" >Go to complete case study</a>
+      <a href="https://www.behance.net/gallery/101694455/Making-a-Nonprofit-Visible" class="card-link" target="_blank" >Go to complete case study <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+      </svg></a>
       </div>
     </div>
   </div>
@@ -89,27 +91,33 @@
 
 <!--Footer-->
     <footer>
-      <div class="contact">
-        <div class="logo-bbi">
-          <img src="images/logo_bbi.svg" alt="" width="105px" height="121px">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div>
+              <img src="images/logo_bbi.svg" alt="" width="105px" height="121px">
+            </div>
+            <div>
+              <h2>Bonnie Ward</h2>
+              <p class="text-break">UX-UI Designer</p>
+              <p class="text-break">Let's connect!</p>
+              <p class="text-break"><a href = "mailto: bonniesbrightideas@gmail.com">bonniesbrightideas@gmail.com</a></p> 
+              <p class="text-break">(714) 392-5346</p>
+              <img src="..." alt="">
+              <img src="..." alt="">
+              <img src="..." alt="">
+              <img src="..." alt="">
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <blockquote>
+              <p>“...talent and capability is everywhere, all it needs is opportunity.”</p>
+              <p class="blockquote-footer">Kathrine SwitzerKathrine Switzer</p></blockquote>
+          </div>
         </div>
-        <div class="contact-text">
-          <h2>Bonnie Ward</h2>
-          <p>UX-UI Designer</p>
-          <p>If there’s an employment opportunity or would like to discuss a project, get in touch with me at
-          bonniesbrightideas@gmail.com (714) 392-5346</p>
+        <div class="row">
+          <div class="col-12 copywrite"> ©BonniesBrightIdeas 2020</div>
         </div>
-      </div>
-      <div>
-        <p>“...talent and capability is everywhere, all it needs is opportunity.” </p>
-        <p>-Kathrine Switzer</p>
-        <img src="..." alt="">
-        <img src="..." alt="">
-        <img src="..." alt="">
-        <img src="..." alt="">
-      </div>
-      <div>
-        <p>©BONNIESBRIGHTIDEAS 2020</p>
       </div>
     </footer>
 

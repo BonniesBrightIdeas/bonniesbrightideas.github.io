@@ -10,7 +10,6 @@ h1, .card-title {font-size: 48px; font-weight: normal;}
 }
 /* nav */
 .customNav {
-    position: fixed;
     width: 100%;
     background-size: cover;
     z-index: 10;
@@ -27,10 +26,10 @@ h1, .card-title {font-size: 48px; font-weight: normal;}
     padding-left: 16px;
 }
 /* hero */
-#home {
+section {
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 1%;
+    margin-top: 120px;
 }
 .jumbotron {
     background-image: url(../images/bg-img/mainBg.png);
@@ -64,7 +63,6 @@ h1, .card-title {font-size: 48px; font-weight: normal;}
 .col-md-8 {
     display: flex;
     align-items: center;
-    
 }
 .bi-caret-right {
     float: right;
@@ -89,15 +87,15 @@ h1, .card-title {font-size: 48px; font-weight: normal;}
 /* footer */
 footer {
     background: #F6F6F6;
-    padding: 10px;
+    padding: 20px;
+    margin-top: 20px;
 }
-.logo-bbi {
-    margin: 16px;
+.copywrite {
+    text-align: center;
 }
-.contact {
-    display: flex;
+footer img {
+    margin-right: 15px;
 }
-.contact-text {
-    display: block;
-    width: 50%;
+footer p {
+    margin-bottom: 0;
 }
