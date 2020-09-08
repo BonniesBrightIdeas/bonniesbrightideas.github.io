@@ -1,6 +1,6 @@
-body, .card-text {font-family: 'Montserrat', sans-serif;  font-size: 20px; font-weight: 300; line-height: 24px;}
+body {font-family: 'Montserrat', sans-serif;  font-size: 20px; font-weight: 300; line-height: 24px;}
 h1, h2, h3, h4, h5, h6 {font-family: 'Bebas Neue Pro', cursive;}
-h1, .card-title {
+h1 {
     font-size: 48px; 
     font-weight: normal;
 }
@@ -39,7 +39,7 @@ section {
     margin-right: 5%;
 }
 .jumbotron {
-    background-image: url(../images/bg-img/redBG.png);
+    background-image: url(../images/bg-img/blueBg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -63,36 +63,33 @@ section {
 .borTop {
     border-top: 1px solid #C4C4C4;
 }
+.btn-primary {
+    background-color: #FBC103;
+    border-color: #FBC103;
+    color: #fff;
+}
 /* card */
+.row {
+    justify-content: center;
+    align-items: baseline;
+}
 .card {
-    margin: 0 auto;
+    margin-right: 16px;
+    margin-bottom: 16px;
     box-shadow: -1px -2px 2px rgba(214, 214, 214, .322), 1px 2px 2px rgba(119, 119, 119, 0.322);
-    margin-bottom: 20px;
 }
-.col-md-8 {
-    display: flex;
-    align-items: center;
+.card-title {
+    font-size: 30px;
 }
-.bi-caret-right {
-    float: right;
-    color: #FBC103;
+.card-text {
+    font-size: 16px;
+    margin: 0;
 }
-/* toggle */
-.toggleContainer {
-    padding: 1.25rem;
-    display: block;
-    background: #F6F6F6;
+.bgColor {
+    background-color: #F6F6F6;
 }
-.toggleFlex {
-    display: flex;
-}
-.problem, .solution {
-    margin-bottom: 20px;
-    padding: 16px
-}
-.toogle-link {
-    text-align: center;
-}
+/* education*/
+
 /* footer */
 footer {
     background: #F6F6F6;
