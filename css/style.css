@@ -77,6 +77,7 @@ section {
 }
 .toggleFlex {
     display: flex;
+    flex-flow: row wrap;
 }
 .problem, .solution {
     margin-bottom: 20px;
