@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="119.273" height="138.581" viewBox="0 0 119.273 138.581">
+  <g id="logo_bbi" transform="translate(22.539 -44.024)">
+    <line id="Line_1" data-name="Line 1" x2="13.833" transform="translate(-20.539 103.483)" fill="none" stroke="#febf04" stroke-linecap="round" stroke-width="4"/>
+    <line id="Line_2" data-name="Line 2" x2="9.931" y2="9.576" transform="translate(-3.514 63.049)" fill="none" stroke="#febf04" stroke-linecap="round" stroke-width="4"/>
+    <line id="Line_3" data-name="Line 3" y1="9.576" x2="9.931" transform="translate(-3.514 134.341)" fill="none" stroke="#febf04" stroke-linecap="round" stroke-width="4"/>
+    <line id="Line_4" data-name="Line 4" y1="9.576" x2="9.931" transform="translate(68.133 63.049)" fill="none" stroke="#febf04" stroke-linecap="round" stroke-width="4"/>
+    <line id="Line_5" data-name="Line 5" x2="9.931" y2="9.576" transform="translate(68.133 134.341)" fill="none" stroke="#febf04" stroke-linecap="round" stroke-width="4"/>
+    <line id="Line_6" data-name="Line 6" y2="13.833" transform="translate(37.63 46.024)" fill="none" stroke="#febf04" stroke-linecap="round" stroke-width="4"/>
+    <line id="Line_7" data-name="Line 7" x2="13.833" transform="translate(80.901 103.483)" fill="none" stroke="#febf04" stroke-linecap="round" stroke-width="4"/>
+    <g id="logo_bbi-2" data-name="logo_bbi" transform="translate(7.057 76.042)">
+      <path id="Path_2" data-name="Path 2" d="M440.5,315.5a41.6,41.6,0,0,1,1.9-12c2.56-8.11,6.1-10.24,8.53-17,.78-2.17,3.62-10.84.95-19-3.8-11.63-17.52-18.42-29.4-18-9.77.35-21.94,5.7-26.56,17-3.23,7.9-1.54,15.7-.95,18,2.07,8,6.32,9.8,10.44,18,2.26,4.51,4.81,11.6,4.9,22h29.4a7.15,7.15,0,0,1,0,14H414.1" transform="translate(-392.54 -248.02)" fill="none" stroke="#fbc103" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_3" data-name="Path 3" d="M413.5,338.5h29a7.06,7.06,0,1,1,0,14h-29v-18" transform="translate(-392.54 -248.02)" fill="none" stroke="#fbc103" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_4" data-name="Path 4" d="M423.5,326v20.5" transform="translate(-392.54 -248.02)" fill="none" stroke="#fbc103" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="1.5" cy="1.5" r="1.5" transform="translate(19.46 79.98)" fill="#fbc103"/>
+    </g>
+  </g>
+</svg>

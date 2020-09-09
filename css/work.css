@@ -29,7 +29,7 @@ h1, .card-title {
 .navbar img {
     padding-left: 16px;
 }
-.active {
+.dropdown {
     border: 2px solid #FBC103;
     border-radius: 10px;
 }

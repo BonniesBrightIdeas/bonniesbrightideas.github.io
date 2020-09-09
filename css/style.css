@@ -66,9 +66,12 @@ section {
     align-items: center;
 }
 .bi-caret-right {
-    float: right;
     color: #FBC103;
+    position: relative;
+    left: 90%;
+    cursor: pointer;
 }
+
 /* toggle */
 .toggleContainer {
     padding: 1.25rem;
@@ -86,6 +89,13 @@ section {
 .toogle-link {
     text-align: center;
 }
+#headingOne{
+    background-color: white;
+}
+.accordion {
+    margin-top: 50px;
+}
+
 /* footer */
 footer {
     background: #F6F6F6;
