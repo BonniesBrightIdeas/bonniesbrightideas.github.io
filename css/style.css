@@ -1,5 +1,5 @@
-body, .card-text {font-family: 'Montserrat', sans-serif;  font-size: 20px; font-weight: 300; line-height: 24px;}
-h1, h2, h3, h4, h5 {font-family: 'Bebas Neue', cursive;}
+body, .card-text {font-family: Montserrat, sans-serif;  font-size: 20px; font-weight: 300; line-height: 24px;}
+h1, h2, h3, h4, h5 {font-family: Bebas Neue, cursive;}
 h1, .card-title {font-size: 48px; font-weight: normal;}
 .secTitle {
     text-align: center; 
