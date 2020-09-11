@@ -1,13 +1,13 @@
-body, .card-text {font-family: Montserrat, sans-serif;  font-size: 20px; font-weight: 300; line-height: 24px;}
-h1, h2, h3, h4, h5 {font-family: Bebas Neue, cursive;}
-h1, .card-title {font-size: 48px; font-weight: normal;}
+body, .card-text, p {font-family: Montserrat, sans-serif;  font-size: 20px; font-weight: 300; line-height: 24px; line-height: 1.3;}
+h1, h2, h3, h4, h5 {font-family: Raleway, sans-serif; font-weight: 600;}
+h1 {font-size: 48px;}
+h2 {font-size: 40px;}
+h3 {font-size: 36px;}
 .secTitle {
     text-align: center; 
     text-transform: uppercase; 
-}
-.secTitle h1 {
-    margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 /* nav */
 .customNav {
@@ -111,7 +111,7 @@ footer img {
 footer p {
     margin-bottom: 0;
 }
-/* Preloader
+/* Preloader */
 .preloader {
     position: fixed;
     width: 100%;
@@ -123,79 +123,73 @@ footer p {
     align-items: center;
     justify-content: center;
   }
-  svg {
-    width: 20%;
-  }
-  .st0 {
-    fill: #FBC103;
-  }
-  .st1 {
-    fill: none;
-    stroke: #FBC103;
-    stroke-width: 4;
-    stroke-linecap: round;
-    stroke-miterlimit: 10;
-  }
-  .st2 {
-    fill: none;
-    opacity: .5;
-    stroke: #FBC103;
-    stroke-width: 2;
-    stroke-linecap: round;
-    stroke-miterlimit: 10;
-  }
-  #one {
-    -webkit-transform-origin: center;
-    -ms-transform-origin: center;
-    transform-origin: center;
-    -webkit-animation: line-glow 1s .5s ;
-    animation: line-glow 1s .5s ;
-  }
-  #two {
-    -webkit-transform-origin: center;
-    -ms-transform-origin: center;
-    transform-origin: center;
-    -webkit-animation: line-glow 1s .5s; 
-    animation: line-glow 1s .5s ;
-  }
-  #three {
-    -webkit-transform-origin: center;
-    -ms-transform-origin: center;
-    transform-origin: center;
-    -webkit-animation: line-glow 1s .6s ;
-    animation: line-glow 1s .6s ;
-  }
-  #four {
-    -webkit-transform-origin: center;
-    -ms-transform-origin: center;
-    transform-origin: center;
-    -webkit-animation: line-glow 1s .7s ;
-    animation: line-glow 1s .7s ;
-  }
-  #five {
-    -webkit-transform-origin: center;
-    -ms-transform-origin: center;
-    transform-origin: center;
-    -webkit-animation: line-glow 1s .8s ;
-    animation: line-glow 1s .8s ;
-  }
-  #six {
-    -webkit-transform-origin: center;
-    -ms-transform-origin: center;
-    transform-origin: center;
-    -webkit-animation: line-glow 1s .9s ;
-    animation: line-glow 1s .9s ;
-  }
-  #seven {
-    -webkit-transform-origin: center;
-    -ms-transform-origin: center;
-    transform-origin: center;
-    -webkit-animation: line-glow 1s 1s ;
-    animation: line-glow 1s 1s ;
-  }
+.preloader svg {
+        overflow: visible;
+      }
+      .st0 {
+        fill: #FBC103;
+      }
+      .st1 {
+        fill: none;
+        stroke: #FBC103;
+        stroke-width: 4;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+      }
+      .st2 {
+        fill: none;
+        opacity: .5;
+        stroke: #FBC103;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+      }
+            #one {
+              -webkit-transform-origin: center;
+              -ms-transform-origin: center;
+              transform-origin: center;
+              
+              animation: line-glow 1s .5s infinite;
+            }
+            #two {
+              -webkit-transform-origin: center;
+              -ms-transform-origin: center;
+              transform-origin: center;
+              animation: line-glow 1s .5s infinite;
+            }
+            #three {
+              -webkit-transform-origin: center;
+              -ms-transform-origin: center;
+              transform-origin: center;
+              animation: line-glow 1s .6s infinite;
+            }
+            #four {
+              -webkit-transform-origin: center;
+              -ms-transform-origin: center;
+              transform-origin: center;
+              animation: line-glow 1s .7s infinite;
+            }
+            #five {
+              -webkit-transform-origin: center;
+              -ms-transform-origin: center;
+              transform-origin: center;
+              animation: line-glow 1s .8s infinite;
+            }
+            #six {
+              -webkit-transform-origin: center;
+              -ms-transform-origin: center;
+              transform-origin: center;
+              animation: line-glow 1s .9s infinite;
+            }
+            #seven {
+              -webkit-transform-origin: center;
+              -ms-transform-origin: center;
+              transform-origin: center;
+              animation: line-glow 1s 1s infinite;
+            }
   #bulb-body-fill {
-    -webkit-animation: bulb-on 4s ease ;
-    animation: bulb-on 4s ease ;
+    -webkit-animation: bulb-on 2s ease;
+    animation: bulb-on 2s ease;
   }
   @-webkit-keyframes line-glow {
     10% {
@@ -226,4 +220,4 @@ footer p {
     100% {
       opacity: 1;
     }
-  }  */
+  }
