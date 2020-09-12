@@ -136,8 +136,8 @@ footer p {
   display: flex;
   align-items: center;
 }
-/* Preloader 
-.preloader {
+/* Preloader */
+#preloader {
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -148,7 +148,7 @@ footer p {
     align-items: center;
     justify-content: center;
   }
-.preloader svg {
+#preloader svg {
         overflow: visible;
       }
       .st0 {
@@ -171,31 +171,31 @@ footer p {
       }
             #one {
               transform-origin: center;
-              animation: line-glow 1s .5s infinite;
+              animation: line-glow 1s .5s ;
             }
             #two {
               transform-origin: center;
-              animation: line-glow 1s .5s infinite;
+              animation: line-glow 1s .5s ;
             }
             #three {
               transform-origin: center;
-              animation: line-glow 1s .6s infinite;
+              animation: line-glow 1s .6s ;
             }
             #four {
               transform-origin: center;
-              animation: line-glow 1s .7s infinite;
+              animation: line-glow 1s .7s ;
             }
             #five {
               transform-origin: center;
-              animation: line-glow 1s .8s infinite;
+              animation: line-glow 1s .8s ;
             }
             #six {
               transform-origin: center;
-              animation: line-glow 1s .9s infinite;
+              animation: line-glow 1s .9s ;
             }
             #seven {
               transform-origin: center;
-              animation: line-glow 1s 1s infinite;
+              animation: line-glow 1s 1s ;
             }
   #bulb-body-fill {
     animation: bulb-on 2s ease;
@@ -227,4 +227,4 @@ footer p {
     100% {
       opacity: 1;
     }
-  }  */
+  }  

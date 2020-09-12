@@ -1,7 +1,18 @@
-/* function fade() {
+/* 
+function fade() {
     $(".preloader").fadeOut("slow");
 }
 setTimeout(fade, 2000); */
+
+$(function(){ 
+  setTimeout(function(){
+    $('#preloader').fadeOut('slow', function() {
+      $(this).remove();
+    });
+   }, 1500);
+});
+
+
 
 function on() {
     document.getElementById("overlay").style.display = "block";
