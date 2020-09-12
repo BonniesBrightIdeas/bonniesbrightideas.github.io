@@ -3,11 +3,6 @@
 }
 setTimeout(fade, 2000); */
 
-/* Tool Tip  line 116  */
-$(function () {
-    $('[data-toggle="tooltip"]').tooltip()
-  }) 
-
 function on() {
     document.getElementById("overlay").style.display = "block";
   }
@@ -15,3 +10,10 @@ function on() {
 function off() {
     document.getElementById("overlay").style.display = "none";
   }
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
