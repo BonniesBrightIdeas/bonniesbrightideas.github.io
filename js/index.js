@@ -1,19 +1,24 @@
-/* 
+
 function fade() {
-    $(".preloader").fadeOut("slow");
+    $("#preloader").fadeOut("slow");
+};
+setTimeout(fade, 2500); 
+
+function fadeOutEffect() {
+  var fadeTarget = document.getElementById("#preloader");
+  var fadeEffect = setInterval(function () {
+      if (!fadeTarget.style.opacity) {
+          fadeTarget.style.opacity = 1;
+      }
+      if (fadeTarget.style.opacity > 0) {
+          fadeTarget.style.opacity -= 0.1;
+      } else {
+          clearInterval(fadeEffect);
+      }
+  }, 2000);
 }
-setTimeout(fade, 2000); */
 
-$(function(){ 
-  setTimeout(function(){
-    $('#preloader').fadeOut('slow', function() {
-      $(this).remove();
-    });
-   }, 1500);
-});
-
-
-
+document.getElementById("target").addEventListener('click', fadeOutEffect);
 function on() {
     document.getElementById("overlay").style.display = "block";
   }

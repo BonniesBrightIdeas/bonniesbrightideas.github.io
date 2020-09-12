@@ -171,31 +171,31 @@ footer p {
       }
             #one {
               transform-origin: center;
-              animation: line-glow 1s .5s ;
+              animation: line-glow 1s .5s infinite;
             }
             #two {
               transform-origin: center;
-              animation: line-glow 1s .5s ;
+              animation: line-glow 1s .5s infinite;
             }
             #three {
               transform-origin: center;
-              animation: line-glow 1s .6s ;
+              animation: line-glow 1s .6s infinite;
             }
             #four {
               transform-origin: center;
-              animation: line-glow 1s .7s ;
+              animation: line-glow 1s .7s infinite;
             }
             #five {
               transform-origin: center;
-              animation: line-glow 1s .8s ;
+              animation: line-glow 1s .8s infinite;
             }
             #six {
               transform-origin: center;
-              animation: line-glow 1s .9s ;
+              animation: line-glow 1s .9s infinite;
             }
             #seven {
               transform-origin: center;
-              animation: line-glow 1s 1s ;
+              animation: line-glow 1s 1s infinite;
             }
   #bulb-body-fill {
     animation: bulb-on 2s ease;
@@ -227,4 +227,4 @@ footer p {
     100% {
       opacity: 1;
     }
-  }  
+  }    
