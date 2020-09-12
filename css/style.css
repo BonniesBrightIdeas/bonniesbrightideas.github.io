@@ -65,15 +65,26 @@ section {
 /* card */
 .card {
     margin: 0 auto;
+    margin-bottom: 25px;
     box-shadow: -1px -2px 2px rgba(214, 214, 214, .322), 1px 2px 2px rgba(119, 119, 119, 0.322);
 }
+.card-link {
+  cursor: pointer;
+}
+.card-link:hover {
+  box-shadow: -2px -4px 4px rgba(214, 214, 214, 0.473), 2px 4px 4px rgba(107, 105, 105, 0.541);
+}
+/* toggle
 .bi-caret-right {
     color: #FBC103;
     position: relative;
     left: 90%;
     cursor: pointer;
-}
-/* toggle */
+} 
+.accordion {
+    margin-top: 50px;
+}  */
+
 .toggleContainer {
     padding: 1.25rem;
     display: block;
@@ -93,8 +104,13 @@ section {
 #headingOne{
     background-color: white;
 }
-.accordion {
-    margin-top: 50px;
+.feDev a{
+  color: black;
+  text-decoration: none;
+}
+.just-align {
+  display: flex;
+  align-items: center;
 }
 
 /* footer */
