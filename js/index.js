@@ -4,6 +4,7 @@ function fade() {
 };
 setTimeout(fade, 2500); 
 
+/*
 function fadeOutEffect() {
   var fadeTarget = document.getElementById("#preloader");
   var fadeEffect = setInterval(function () {
@@ -16,7 +17,7 @@ function fadeOutEffect() {
           clearInterval(fadeEffect);
       }
   }, 2000);
-}
+} */
 
 document.getElementById("target").addEventListener('click', fadeOutEffect);
 function on() {
