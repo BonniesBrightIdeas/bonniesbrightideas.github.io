@@ -85,6 +85,9 @@ section {
     font-size: 16px;
     margin: 0;
 }
+.text-margin {
+    margin-top: 20%;
+}
 .bgColor {
     background-color: #F6F6F6;
 }
