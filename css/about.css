@@ -70,6 +70,10 @@ section {
 blockquote {
     padding-top: 30px;
 }
+span {
+    color: #fbb903;
+    font-weight: 500;
+}
 /* card */
 .row {
     justify-content: center;
@@ -89,6 +93,9 @@ blockquote {
 .img-thumbnail {
     border: 1px;
     margin: 15px;
+}
+.img-thumbnail:hover {
+    box-shadow: -2px -4px 4px rgba(214, 214, 214, 0.473), 2px 4px 4px rgba(107, 105, 105, 0.541);
 }
 /* footer */
 footer {
