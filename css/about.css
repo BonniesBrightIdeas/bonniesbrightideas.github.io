@@ -99,8 +99,12 @@ footer {
 .copywrite {
     text-align: center;
 }
-footer img {
+.logo {
     margin-right: 15px;
+    width: 80%;
+}
+.logo:hover {
+    width: 90%;
 }
 footer p {
     margin-bottom: 0;
@@ -113,6 +117,11 @@ footer p {
 .copy {
     font-size: 12px;
 }
-.copywrite {
-    text-align: center;
+.socialMedia {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 7%;
+}
+.socialMedia:hover {
+    width: 8%;
 }
