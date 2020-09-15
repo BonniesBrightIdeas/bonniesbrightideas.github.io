@@ -235,3 +235,7 @@ footer p {
 .socialMedia:hover {
     width: 8%;
 }
+/* quote */
+blockquote {
+    padding-top: 30px;
+}
