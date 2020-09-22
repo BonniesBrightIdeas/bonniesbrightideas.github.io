@@ -82,6 +82,12 @@ section.bgbanner {
     object-fit: cover; 
     padding: 50px;
 }
+.pmarginbottom {
+    margin-bottom: 70px;
+}
+.protoimg img {
+    margin-top: 20%;
+}
 .teal {
     color: #2FB9AE;
     font-size: 16px;
@@ -116,4 +122,60 @@ html {
 }
 .row {
     max-width: 1400px;
+}
+.sitemapimg {
+    margin-top: 30%;
+}
+.margintop50 {
+    margin-top: 50%;
+}
+@media (min-width: 576px) {
+    .margin-top50 {
+        margin-top: 30px;
+    }
+    .partimg img{
+        width: 100%;
+        object-fit: cover; 
+        padding: 5px;
+    }
+    img.toolimg {
+        padding-right: 20%;
+    }
+    .protoimg img {
+        margin-top: 5%;
+    }
+    .pmarginbottom {
+        margin-bottom: 30px;
+    }
+    .sitemapimg {
+        margin-top: 5%;
+    }
+    .wirefloat {
+        float: left;
+        margin-top: 0;
+        margin-left: 25%;
+        position: relative;
+        z-index: 3;
+    }
+}
+
+@media (min-width: 375px) {
+    .partimg img{
+        width: 110%;
+        object-fit: cover; 
+        padding: 5px;
+    }
+    .margintop50 {
+        margin-top: 0;
+    }
+    .sitemapimg {
+        margin-top: 5%;
+    }
+    .resultimg-float {
+        float: right;
+        margin-top: 3%;
+        margin-right: -10%;
+        position: relative;
+        z-index: 3;
+    }
 }
