@@ -14,10 +14,6 @@ h6 {font-size: 20px;}
     font-size: 16px;
     padding-left: 15px;
 }
-.pagemargin {
-    margin-left: 5%;
-    margin-right: 5%;
-}
 .headline {
     margin-top: 130px;
     padding-bottom: 16px;
@@ -129,10 +125,6 @@ section.bgbanner {
     font-size: 16px;
     margin-top: 30px;
 }
-.partimg {
-    width: 100%;
-    object-fit: cover;
-}
 .wirefloat {
     float: left;
     margin-top: -10%;
@@ -162,6 +154,10 @@ html {
 }
 .row {
     max-width: 1400px;
+}
+.paddingimg {
+    padding-top: 50px; 
+    padding-bottom: 50px;
 }
 /* Modal */
 .w3-modal{
@@ -209,7 +205,7 @@ html {
         margin-top: 30px;
     }
     .paddingtopimg {
-        margin-top: 5%;
+        margin-top: 15%;
     }
     .competeimg {
         margin-top: 5%;
@@ -217,14 +213,11 @@ html {
     img.toolimg {
         padding-right: 20%;
     }
-    .protoimg img {
-        margin-top: 5%;
-    }
     .margin-top15 {
         margin-top: 5%;
     }
-    .pmarginbottom {
-        margin-bottom: 5%;
+    .pmarginbottom10 {
+        margin-bottom: 10%;
     }
     .wirefloat {
         float: left;
