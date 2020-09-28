@@ -101,24 +101,8 @@ section.bgbanner {
 .paddingtopimg {
     margin-top: 20%;
 }
-.number {
-    width: 100%;
-    object-fit: contain;
-}
-.number img {
-    width: 70%;
-}
 .margin-top15 {
     margin-top: 15%;
-}
-.competeimg {
-    margin-top: 30%;
-}
-.number2 img {
-    width: 50%;
-}
-.number4 img {
-    width: 50%;
 }
 .teal {
     color: #2FB9AE;
@@ -142,7 +126,7 @@ section.bgbanner {
 }
 .resultimg-float {
     float: right;
-    margin-top: 30%;
+    margin-top: 60%;
     margin-right: -15%;
     position: relative;
     z-index: 3;
