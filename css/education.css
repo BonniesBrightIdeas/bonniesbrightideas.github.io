@@ -1,0 +1,258 @@
+body, .card-text, p, li {font-family: Montserrat, sans-serif;  font-size: 14px; font-weight: 300; line-height: 24px; line-height: 1.5;}
+h1, h2, h3, h4, h5, h6 {font-family: Quicksand, sans-serif; font-weight: 600;}
+h1 {font-size: 48px;}
+h2 {font-size: 40px;}
+h3 {font-size: 36px;}
+h4 {font-size: 30px;}
+h5 {font-size: 26px;}
+h6 {font-size: 20px;}
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+.navtext {
+    font-size: 16px;
+    padding-top: 30px;
+    font-family: Quicksand;
+    font-weight: bold;
+}
+.navtext:hover {
+    font-size: 18px;
+}
+.bg-01, .bg-06 {
+    background-image: url(../images/caseStudy/education/nav01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    width: 112.98px;
+}
+.bg-02 {
+    background-image: url(../images/caseStudy/education/nav02.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    width: 112.98px;
+}
+.bg-03 {
+    background-image: url(../images/caseStudy/education/nav03.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    width: 112.98px;
+}
+.bg-04 {
+    background-image: url(../images/caseStudy/education/nav04.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    width: 112.98px;
+}
+.bg-05 {
+    background-image: url(../images/caseStudy/education/nav05.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    width: 112.98px;
+}
+.marginright50 {
+    margin-right: 50px;
+}
+.color01, .color06 {
+    color: #7E82FF;
+}
+.color02 {
+    color: #62D6C1;
+}
+.color03 {
+    color: #FFE08D;
+}
+.color04 {
+    color: #FFA281;
+}
+.color05 {
+    color: #F398B9;
+}
+.heading {
+    padding-top: 26px;
+    padding-bottom: 26px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #3A3A3A;
+    color: white;
+}
+.margintop50 {
+    margin-top: 50px;
+}
+.paddingleftright10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.toolflex img {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+html {
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: center;
+}
+/*discover*/
+.bg-color01 {
+    background-image: url(../images/caseStudy/education/bg-color01.png);
+    background-repeat: none;
+    position: top;
+    background-size: contain;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+}
+.proto {
+    margin-left: 20px;
+}
+.insightpad {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.marginbottom20 {
+    margin-bottom: 20px;
+}
+/*define*/
+.bg-color02 {
+    background-image: url(../images/caseStudy/education/bg-color02.png);
+    background-repeat: none;
+    position: top;
+    background-size: contain;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+}
+/*develop*/
+.bg-color03 {
+    background-image: url(../images/caseStudy/education/bg-color03.png);
+    background-repeat: none;
+    position: top;
+    background-size: contain;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+}
+.marginbottom50 {
+    margin-bottom: 150px;
+}
+/*deliver*/
+.bg-color04 {
+    background-image: url(../images/caseStudy/education/bg-color04.png);
+    background-repeat: none;
+    position: top;
+    background-size: contain;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+}
+/*next*/
+.bg-color05 {
+    background-image: url(../images/caseStudy/education/bg-color05.png);
+    background-repeat: none;
+    position: top;
+    background-size: contain;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+}
+/* Modal */
+.w3-modal{
+    z-index: 15;
+    display:none;
+    padding-top:100px;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    overflow:auto;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.w3-modal-content{
+    margin:auto;
+    background-color:#fff;
+    position:relative;
+    padding:0;
+    outline:0;
+    width:600px;
+}
+.w3-animate-zoom {
+    animation:animatezoom 0.6s}
+    @keyframes animatezoom{
+        from{transform:scale(0)} 
+        to{transform:scale(1)}
+    }
+.w3-center{
+    text-align:center!important}
+.w3-transparent,.w3-hover-none:hover{
+    background-color:transparent!important}
+.w3-padding-64{
+    padding-top:120px!important;
+    padding-bottom:64px!important}
+.w3-black,.w3-hover-black:hover{
+    color:#fff!important;
+    background-color:rgba(0, 0, 0, 0.6)!important}
+.w3-image{
+    max-width:100%;
+    height:auto}
+
+@media (min-width: 576px) {
+    .margin-top50 {
+        margin-top: 30px;
+    }
+    .paddingtopimg {
+        margin-top: 15%;
+    }
+    .competeimg {
+        margin-top: 5%;
+    }
+    img.toolimg {
+        padding-right: 20%;
+    }
+    .margin-top15 {
+        margin-top: 5%;
+    }
+    .pmarginbottom10 {
+        margin-bottom: 10%;
+    }
+    .wirefloat {
+        float: left;
+        margin-top: 0;
+        margin-left: 25%;
+        position: relative;
+        z-index: 3;
+    }
+}
+@media (min-width: 375px) {
+    
+    .margin-top50 {
+        margin-top: 5%;
+    }
+    .sitemapimg {
+        margin-top: 5%;
+    }
+    .resultimg-float {
+        float: right;
+        margin-top: 3%;
+        margin-right: -10%;
+        position: relative;
+        z-index: 3;
+    }
+}
+@media (min-width: 992px) {
+    .pmarginbottom {
+        margin-bottom: 70px;
+    }
+}
