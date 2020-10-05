@@ -24,10 +24,12 @@ nav {
 .heroruler-bottom {
     padding-top: 20px;
     color: white;
-    text-align: end;
 }
 .herotxt {
-    margin-right: 10%;
+    padding-left: 20px;
+}
+.letterspace {
+    letter-spacing: .3em;
 }
 .ruler {
     background-image: url("../images/footer-ruler.png");
@@ -43,19 +45,6 @@ nav {
 .carousel-caption p,.carousel-caption h5 {
     color: #5457af;
 }
-
-/*
-.no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-  
-    > .col,
-    > [class*="col-"] {
-      padding-right: 0;
-      padding-left: 0;
-    }
-  }  */
-/*dailychallenge*/
 .bg-challengesquare {
     background-image: url(../images/bgchallengesquare.png);
     background-repeat: no-repeat;
@@ -108,7 +97,7 @@ nav {
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
     box-shadow: -2px -4px 10px rgba(0, 0, 0, 0.15);
 }
-/*footer (yes this code is garbage)*/
+/*footer*/
 #footer {
     background-color: #7E82F9;
     background-image: url("../images/footer-ruler.png");

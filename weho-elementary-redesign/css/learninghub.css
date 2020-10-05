@@ -38,7 +38,7 @@ nav {
     color: black;
 }
 /*vertical nav*/
-.col-md-1 {
+.bg-color {
     background-color: #FFE08D;
 }
 .paddingtop {
@@ -137,62 +137,35 @@ nav {
     margin-bottom: 50px;
     margin-left: 20px;
 }
-/*footer (yes this code is garbage)*/
+/*footer*/
 #footer {
-    height: auto;
     background-color: #7E82F9;
     background-image: url("../images/footer-ruler.png");
     background-repeat: repeat-x;
     background-position: bottom;
-    padding: 1rem 5% 50px 10%;
     margin-top: 1em;
     color: white;
     font-family: 'Quicksand', sans-serif;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 30px;
   }
-  
-  #footer h3, #footer p {
-    padding: 0;
-    margin: 0;
+  .marginright10 {
+      margin-right: 10px;
   }
-  
-  #footer h3 {
-    font-size: 30px;
-    font-weight: 600;
-  }
-  
-  #footer p {
-    font-size: 16px;
-    font-weight: 400;
-  }
-  
   .footerAddy {
     display: flex;
     flex-direction: row;
   }
-  
   .footerAddy img {
     height: 5rem;
   }
-  
-  .footerAddy>div, #footerSocial {
-    padding: .5rem;
-  }
-  
-  #footerSocial {
-    text-align: center;
-  }
-  
   #footerSocial img {
     padding: .25rem;
-    width: 35px;
-  }
-  
+    width: 40px;
+  } 
   .socialIcons {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: flex-end;
   }
