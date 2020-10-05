@@ -19,6 +19,9 @@ h6 {font-size: 20px;}
 .navtext:hover {
     font-size: 18px;
 }
+.mockmargintop {
+    margin-top: 200px;
+}
 .bg-01, .bg-06 {
     background-image: url(../images/caseStudy/education/nav01.png);
     background-repeat: no-repeat;
@@ -145,6 +148,10 @@ html {
 .marginbottom50 {
     margin-bottom: 150px;
 }
+.imghover:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
 /*deliver*/
 .bg-color04 {
     background-image: url(../images/caseStudy/education/bg-color04.png);
@@ -186,7 +193,7 @@ html {
     position:relative;
     padding:0;
     outline:0;
-    width:600px;
+    width:75%;
 }
 .w3-animate-zoom {
     animation:animatezoom 0.6s}
@@ -207,52 +214,3 @@ html {
 .w3-image{
     max-width:100%;
     height:auto}
-
-@media (min-width: 576px) {
-    .margin-top50 {
-        margin-top: 30px;
-    }
-    .paddingtopimg {
-        margin-top: 15%;
-    }
-    .competeimg {
-        margin-top: 5%;
-    }
-    img.toolimg {
-        padding-right: 20%;
-    }
-    .margin-top15 {
-        margin-top: 5%;
-    }
-    .pmarginbottom10 {
-        margin-bottom: 10%;
-    }
-    .wirefloat {
-        float: left;
-        margin-top: 0;
-        margin-left: 25%;
-        position: relative;
-        z-index: 3;
-    }
-}
-@media (min-width: 375px) {
-    
-    .margin-top50 {
-        margin-top: 5%;
-    }
-    .sitemapimg {
-        margin-top: 5%;
-    }
-    .resultimg-float {
-        float: right;
-        margin-top: 3%;
-        margin-right: -10%;
-        position: relative;
-        z-index: 3;
-    }
-}
-@media (min-width: 992px) {
-    .pmarginbottom {
-        margin-bottom: 70px;
-    }
-}
