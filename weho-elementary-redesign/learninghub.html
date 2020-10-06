@@ -90,7 +90,7 @@
 </nav>
 <!--breadcrumbs-->
 <nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
+  <ol class="breadcrumb container">
     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
     <li class="breadcrumb-item active" aria-current="page">Virtual Learning Hub</li>
   </ol>
@@ -98,32 +98,24 @@
 <!--body columns 2 & 10-->
 <!--col 2-->
 <div class="container">
-<div class="row">
-  <div class="col-md-2 bg-color no-gutter">
+<div class="row row-no-gutters">
+  <div class="col-md-2 bg-color">
     <!--vertical nav-->
-    <ul class="nav flex-column paddingtop">
-      <li class="nav-item marginbottom">
-      <a class="nav-link active activebg" href="#"> <img src="images/icon-science.png" alt="science" data-toggle="tooltip" data-placement="right" title="Science"> </a>
-      </li>
-      <li class="nav-item marginbottom">
-      <a class="nav-link" href="#"><img src="images/Icon-math.png" alt="math" data-toggle="tooltip" data-placement="right" title="Math"></a>
-      </li>
-      <li class="nav-item marginbottom">
-      <a class="nav-link" href="#"><img src="images/Icon-socialstudies.png" alt="social studies" data-toggle="tooltip" data-placement="right" title="Social Studies"></a>
-      </li>
-      <li class="nav-item marginbottom">
-      <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><img src="images/Icon-english.png" alt="reading" data-toggle="tooltip" data-placement="right" title="Reading & Writing"></a>
-      </li>
-    </ul>
+    <div class="paddingtop">
+      <a class="nav-link active activebg linkpad text-center" href="#"><img src="/weho-elementary-redesign/images/science.png" alt="science" data-toggle="tooltip" data-placement="right" title="Science" width="30px"></a>
+      <a class="nav-link linkpad text-center" href="learninghub.html"><img src="/weho-elementary-redesign/images/math.png" alt="math" data-toggle="tooltip" data-placement="right" title="Math" width="50px"></a>
+      <a class="nav-link linkpad text-center" href="#"><img src="/weho-elementary-redesign/images/socialstudies.png" alt="social studies" data-toggle="tooltip" data-placement="right" title="Social Studies" width="35px"></a>
+      <a class="nav-link linkpad text-center" href="#" tabindex="-1" aria-disabled="true"><svg width="30px" viewBox="0 0 16 16" class="bi bi-book" fill="currentColor" xmlns="http://www.w3.org/2000/svg" alt="reading" data-toggle="tooltip" data-placement="right" title="Reading & Writing">
+        <path fill-rule="evenodd" d="M1 2.828v9.923c.918-.35 2.107-.692 3.287-.81 1.094-.111 2.278-.039 3.213.492V2.687c-.654-.689-1.782-.886-3.112-.752-1.234.124-2.503.523-3.388.893zm7.5-.141v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12 2.37.461 3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+      </svg></a>
+    </div>
   </div>
-
   <!--col 10-->
-  <div class="col-md-10 no-gutter">
+  <div class="col-md-10">
     <!--header-->
     <div class="container bgheader marginbottom">
       <h2 class="bold">VIRTUAL LEARNING HUB & EXTRA MENTORING</h2>
     </div>
-
     <div class="container">
     <!--tabs-->
     <div class="marginbottom">
@@ -249,7 +241,7 @@
         <div class="container">
           <div class="row marginbottom">
             <div class="col-md-12 whitebg paddingaround align-items-center">
-              <p>Tornadoes In Nature II: Posted 09/09/20</p>
+              <p>Tornadoes In Nature II: <br>Posted 09/09/20</p>
               <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#staticVideo" data-video="https://www.youtube.com/watch?v=iMWoYPaQx0Q">Watch</button>
             </div>
           </div>
@@ -258,7 +250,7 @@
         <div class="container">
           <div class="row marginbottom">
             <div class="col-md-12 whitebg paddingaround align-items-center">
-              <p>Tornadoes In Nature I: Posted 09/08/20</p>
+              <p>Tornadoes In Nature I: <br>Posted 09/08/20</p>
               <button type="button" class="btn btn-outline-warning">Watch</button>
             </div>
           </div>
@@ -288,6 +280,7 @@
       </div>
     </div>
   </div>
+
 <!--footer-->
 <footer id="footer">
   <div class="container">
@@ -304,9 +297,9 @@
       <div id="footerSocial" class="col-12 col-md-6 text-right">
           <h6>Follow Us:</h6>
           <div class="socialIcons">
-            <a href="https://www.facebook.com/WeHoElementary/"><img src="/weho-elementary-redesign/images/facebook.svg" alt="Facebook"></a>
-            <a href="https://www.instagram.com/whewizards/"><img src="/weho-elementary-redesign/images/instagram.svg" alt="Instagram"></a>
-            <a href="https://twitter.com/WestHollywoodE1"><img src="/weho-elementary-redesign/images/twitter.svg" alt="Twitter"></a>
+            <a href="https://www.facebook.com/WeHoElementary/" target="_blank"><img src="/weho-elementary-redesign/images/facebook.svg" alt="Facebook"></a>
+            <a href="https://www.instagram.com/whewizards/" target="_blank"><img src="/weho-elementary-redesign/images/instagram.svg" alt="Instagram"></a>
+            <a href="https://twitter.com/WestHollywoodE1" target="_blank"><img src="/weho-elementary-redesign/images/twitter.svg" alt="Twitter"></a>
           </div>
       </div>
     </div>

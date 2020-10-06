@@ -8,7 +8,6 @@ body {
     background-color: #F8F8F8;
 }
 /*nav*/
-/*nav*/
 .purpledivider {
     color: #7E82F9;
     font-weight: 700;
@@ -37,6 +36,10 @@ nav {
 }
 .bold {
     font-weight: bold;
+}
+/* news and alerts*/
+#v-pills-news, #v-pills-parent, #v-pills-counsil{
+  margin-bottom: 200px;
 }
 /*footer*/
 #footer {
