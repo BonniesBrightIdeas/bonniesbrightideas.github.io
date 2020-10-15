@@ -32,80 +32,31 @@
 </head>
 <body>
 <!-- Nav -->
-<nav class="navbar navbar-expand-lg navbar-light sticky-top">
-  <div class="container">
-    <div class="d-flex flex-grow-1">
-        <a class="navbar-brand d-none d-lg-inline-block" href="index.html">
-            <img src="images/wizard-logo-drk.png" alt="wizard logo" class="wizard-logo">
-        </a>
-        <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="index.html">
-            <img src="images/wizard-logo-drk-mobile.png" alt="logo">
-        </a>
-        <div class="w-100 text-right">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+<nav class="navbar navbar-expand-lg navbar-light bg-light customNav fixed-top">
+  <a class="navbar-brand" href="index.html"><img src="images/Logo_Nav.svg"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="work.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Work</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#projects">Projects</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#dailyui">Daily UI</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#frontend">Frontend Dev</a>
         </div>
-    </div>
-    <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-        <ul class="navbar-nav ml-auto flex-nowrap">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="ourschool.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Our School
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="ourschool.html">About</a>
-                  <a class="dropdown-item" href="Attendance.html">Attendance</a>
-                  <a class="dropdown-item" href="calearning.html">California Learning Standards</a>
-                  <a class="dropdown-item" href="covid-19.html">COVID-19</a>
-                  <a class="dropdown-item" href="dresscode.html">Dress Code and Rules</a>
-                  <a class="dropdown-item" href="enrollment.html">Enrollment and Registration</a>
-                  <a class="dropdown-item" href="parking.html">Parking</a>
-                  <a class="dropdown-item" href="teacher.html">Teachers and Staff</a>  
-                </div>
-              </li>
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Programs
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">COVID-19 Challenges</a>
-                    <a class="dropdown-item" href="#">Gardening</a>
-                    <a class="dropdown-item" href="#">GATE/SPED</a>
-                    <a class="dropdown-item" href="#">Music</a>
-                    <a class="dropdown-item" href="#">Physical Education</a>
-                    <a class="dropdown-item" href="#">Visual Arts</a>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="parentresources.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Parent Resources
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="parentresources.html">Common Core</a>
-                    <a class="dropdown-item" href="friends.html">Friends of WHE</a>
-                    <a class="dropdown-item" href="news.html">News and Alerts</a>
-                    <a class="dropdown-item" href="parentport.html">Parent Portal</a>
-                    <a class="dropdown-item" href="council.html">School Site Council</a>
-                    <a class="dropdown-item" href="learninghub.html">Virtual Learning Hub</a>
-                  </div>
-                </li>
-        </ul>
-    </div>
-    <div class="purpledivider">
-        |
-    </div>
-    <!--calendar icon-->
-    <a class="navbar-brand" href="#"> <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
-      </svg> 
-    </a>
-    <!--search icon-->
-    <a class="navbar-brand" href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
-    <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
-    </svg> 
-    </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="resume.html">Resume</a>
+      </li>
+    </ul>
   </div>
 </nav>
   <!--Hero-->
