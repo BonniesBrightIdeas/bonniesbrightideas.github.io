@@ -129,36 +129,18 @@ nav {
     flex-wrap: wrap;
     justify-content: flex-end;
   }
-/*Media 
+.mobilehide {
+    display: hidden;
+}
+/*Media*/
 @media (min-width: 768px) {
-    .row {
-        flex-direction: column;
+    .mobilehide {
+        display: block;
+        width: 100%;
     }
-    .bg-challengesquare {
-        background-position: center;
-        background-size: contain;
-        padding-top: 0;
-        padding-bottom: 0;
-        padding-left: 0;
-    }
-    .challengebookmark, .mentorbookmark, .covidbookmark {
-        transform: rotate(90deg);
-    }
-    .containermargintop {
-        margin-top: 10px;
-    }
-    .mentorbookmark img {
-        width: 80%;
-    }
-    .mentortxt {
-        text-align: center;
-    }
-    .covidbookmark {
-        margin-top: 30%;
-    }
-    .bg-covidsquare {
-        background-size: contain;
+    .webhide {
+        display: hidden;
     }
 }
-*/
+
 
