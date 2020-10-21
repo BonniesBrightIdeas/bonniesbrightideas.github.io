@@ -101,7 +101,9 @@ section {
     align-items: center;
 }
 /* education*/
-
+.align {
+    margin: 0 auto;
+}
 /* footer */
 footer {
     background: #F6F6F6;
