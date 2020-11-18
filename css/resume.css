@@ -100,6 +100,10 @@ section {
     justify-content: center;
     align-items: center;
 }
+/* endorse*/
+.jobtitle {
+    font-size: 16px;
+}
 /* education*/
 .align {
     margin: 0 auto;
