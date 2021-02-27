@@ -19,14 +19,14 @@ h6 {font-size: 20px;}
     padding-left: 15px;
 }
 .margintitle {
-    margin-top: 130px;
+    margin-top: 150px;
 }
 .borderbottom {
     border-bottom: 3px solid #4EA7B3;
     margin-bottom: 10px;
 }
 .margin-top50 {
-    margin-top: 20%;
+    margin-top: 50px;
 }
 .margintop {
     margin-top: 30px;
@@ -56,13 +56,8 @@ section.bgbanner {
 .img-div {
     width: 60%;
 }
-.img-div-process {
-    width: 80%
-}
-html {
+body {
     scroll-behavior: smooth;
-    display: flex;
-    justify-content: center;
 }
 .row {
     max-width: 1400px;
@@ -109,31 +104,8 @@ html {
     height:auto}
 
 @media (min-width: 576px) {
-    .margin-top50 {
-        margin-top: 30px;
-    }
-    .paddingtopimg {
-        margin-top: 15%;
-    }
-    .competeimg {
-        margin-top: 5%;
-    }
-    img.toolimg {
-        padding-right: 20%;
-    }
-    .margin-top15 {
-        margin-top: 5%;
-    }
-    .pmarginbottom10 {
-        margin-bottom: 10%;
-    }
 }
-@media (min-width: 375px) {
-    
-    .margin-top50 {
-        margin-top: 5%;
-    }
+@media (min-width: 375px) {   
 }
 @media (min-width: 992px) {
-
 }
