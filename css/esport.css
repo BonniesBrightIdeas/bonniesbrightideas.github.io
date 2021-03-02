@@ -45,3 +45,18 @@ h6 {font-size: 20px;}
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.margintop {
+    margin-top: 30px;
+}
+.fontblue {
+    color: #45D3F4;
+}
+.textshadow {
+    text-shadow: 2px 2px 4px rgb(209, 209, 209);
+}
+.borderbottom {
+    border-bottom: 2px solid #45D3F4;
+}
+.paddingbottom10 {
+    padding-bottom: 10px;
+}
